@@ -425,7 +425,7 @@ const btnChapterMap = {
   feasibility: "feasibility",
   field: "field",
   contribution: "public",
-  demo: "close",
+  "thank you": "close",
 };
 function updateNav(chapter) {
   document.querySelectorAll(".hud-nav-btn").forEach((btn) => {
