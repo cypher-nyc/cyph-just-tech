@@ -909,18 +909,19 @@ function runA(i) {
       break;
     case 11:
       anime({
-        targets: "#s11 .crisis-float",
+        targets: "#s11 .pc-q",
+        translateY: [12, 0],
         opacity: [0, 1],
-        duration: 600,
-        delay: anime.stagger(120, { start: 100 }),
+        duration: 500,
+        delay: anime.stagger(90, { start: 80 }),
         easing: C,
       });
       anime({
-        targets: "#s11 .crisis-card",
-        translateY: [16, 0],
+        targets: "#s11 .pc-col",
+        translateY: [18, 0],
         opacity: [0, 1],
-        duration: 450,
-        delay: anime.stagger(110, { start: 350 }),
+        duration: 480,
+        delay: anime.stagger(120, { start: 280 }),
         easing: B,
       });
       break;

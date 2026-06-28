@@ -3031,3 +3031,82 @@ body.locked #deck-controls button {
 #s11 .crisis-float-2 { top: 56px; left: 345px; right: auto; }
 #s11 .crisis-float-3 { top: 20px; left: 672px; right: auto; }
 #s11 .crisis-float-4 { top: 56px; left: 999px; right: auto; object-position: center top; }
+
+/* ── public contribution (s11) — research question + 3 evidence columns ── */
+#s11 .pc {
+  width: 1300px;
+  margin-top: 4px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#s11 .pc-eyebrow {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #ec4e20;
+  margin-bottom: 10px;
+}
+#s11 .pc-q {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 1.4;
+  color: var(--charcoal);
+  max-width: 1260px;
+  margin-bottom: 22px;
+}
+#s11 .pc-q em {
+  font-style: italic;
+  color: #ec4e20;
+}
+#s11 .pc-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  align-items: stretch;
+}
+#s11 .pc-col {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: 3px solid #888;
+  border-radius: 12px;
+  padding: 16px 18px;
+}
+#s11 .pc-col-h {
+  font-weight: 700;
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 4px;
+}
+#s11 .pc-col-lead {
+  font-size: 12px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.4;
+  margin-bottom: 10px;
+  min-height: 34px;
+}
+#s11 .pc-col ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#s11 .pc-col li {
+  font-size: 12.5px;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.4;
+  padding: 6px 0 6px 18px;
+  position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+#s11 .pc-col li:first-child {
+  border-top: none;
+}
+#s11 .pc-col li::before {
+  content: "\203A";
+  position: absolute;
+  left: 0;
+  color: #ec4e20;
+}
+#s11 .pc-col li strong {
+  color: #fff;
+}
